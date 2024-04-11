@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --windowed --icon="./resource/bt.ico" --name="BatteryReporter" BatteryReporter.py
