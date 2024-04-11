@@ -146,7 +146,7 @@ class BatteryMonitorApp:
                     value = cells[1].text.strip()
                     batteryReport.append((label, value))
 
-        # BATTERY PERFORMANCE STATUS (배터리 성능상태)
+        # BATTERY PERFORMANCE STATUS (배터리 성능상태 계산 및 표기)
         batteryReport.append(("BATTERY PERFORMANCE STATUS", str(round(calcModule.extractNumbers(batteryReport[6][1]) / calcModule.extractNumbers(batteryReport[5][1]) * 100, 1)) + '%'))
 
         # Treeview 업데이트
@@ -156,10 +156,10 @@ class BatteryMonitorApp:
 
     def sync_treeview_width(self, event):
         # 창 크기 변경 시 Treeview의 가로 스크롤바 동기화
-        self.tree1.column("Label", width=(self.root.winfo_width() - 20) // 2)  # Label 열의 너비 설정
-        self.tree1.column("Value", width=(self.root.winfo_width() - 20) // 2)  # Value 열의 너비 설정
-        self.tree2.column("Label", width=(self.root.winfo_width() - 20) // 2)  # Label 열의 너비 설정
-        self.tree2.column("Value", width=(self.root.winfo_width() - 20) // 2)  # Value 열의 너비 설정
+        self.tree1.column("Label", width=(self.root.winfo_width() - 20) // 2)
+        self.tree1.column("Value", width=(self.root.winfo_width() - 20) // 2)
+        self.tree2.column("Label", width=(self.root.winfo_width() - 20) // 2)
+        self.tree2.column("Value", width=(self.root.winfo_width() - 20) // 2)
 
     def open_developer_website(self):
         webbrowser.open_new("https://abyssventures.com")
