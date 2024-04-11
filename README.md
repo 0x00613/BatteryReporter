@@ -13,9 +13,6 @@
  | PLATFORM ROLE       | 컴퓨터 플랫폼 (랩탑 전용 프로세서일 경우 Mobile로 표기됨)    |   |   |   |   |   |   |   |   |
  | CONNECTED STANDBY   | CONNECTED STANDBY 지원 여부 (절전 전원 관리 탑재여부) |   |   |   |   |   |   |   |   |
  | REPORT TIME         | 리포트가 생성된 시간                             |   |   |   |   |   |   |   |   |
- |                     |                                         |   |   |   |   |   |   |   |   |
- |                     |                                         |   |   |   |   |   |   |   |   |
- |                     |                                         |   |   |   |   |   |   |   |   |
 
 ## Battery Report Tab
  ![Battery Reporter 02](https://github.com/0x000613/BatteryReporter/assets/77450463/b8d23f54-1ca7-430b-b4ed-191df132e253)
@@ -30,4 +27,3 @@
  | FULL CHARGE CAPACITY       | 현재 배터리 최대 충전용량                        |   |   |   |   |   |   |   |   |
  | CYCLE COUNT                | 배터리 충전 사이클 횟수 (일부 모델에서 제공되지 않음)       |   |   |   |   |   |   |   |   |
  | BATTERY PERFORMANCE STATUS | 배터리 성능 상태 (최초생산 대비 현재 배터리 효율을 나타냅니다.) |   |   |   |   |   |   |   |   |
- |                            |                                       |   |   |   |   |   |   |   |   |
