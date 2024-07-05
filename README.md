@@ -1,6 +1,7 @@
 # BatteryReporter
  Windows Laptop에서 배터리 성능상태를 간편하게 확인할 수 있는 프로그램입니다.
- MacOS에서는 GUI로 시스템 및 배터리 리포트를 확인할 수 있는데, Windows에서는 CMD로 확인해야하는 다소 번거로운 부분에서 착안하여 개발했습니다.
+ macOS에서는 GUI로 시스템 및 배터리 리포트를 확인할 수 있는데, Windows에서는 CMD로 리포트 파일을 생성해야 하는 등 macOS 대비 번거로움이 있다는 점을 착안하여 개발 진행하였습니다.  
+ 개선 사항에 대한 PR은 언제든지 환영하며, 문제가 발생했을 경우 Issue 탭에 남겨주시면 빠르게 확인 후 수정하도록 하겠습니다.  
 
 ## System Report Tab
  ![Battery Reporter 01](https://github.com/0x000613/BatteryReporter/assets/77450463/2236e1e7-2c32-449f-bd3e-0ab807ca955f)
