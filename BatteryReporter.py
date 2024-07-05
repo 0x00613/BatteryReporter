@@ -5,7 +5,7 @@ from tkinter import ttk
 from bs4 import BeautifulSoup
 import webbrowser
 import subprocess
-from lib import calcModule
+from libs import calcModule
 
 softwareVersion = '1.0.0beta'
 softwareName = 'Battery Reporter'
